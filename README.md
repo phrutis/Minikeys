@@ -32,13 +32,13 @@ This is the fastest program to find old Serie1 minikeys in the world :trophy:
 
 **Linux (ubuntu) Nvidia**
 </br><br>
-For RTX 3090, 4090 - mk_86</br>
-For other cards - mk_61</br>
+For RTX 3090, 4090 - ```mk_86```</br>
+For other cards - ```mk_61```
 
 **Windows Nvidia**
 <br><br>
-For RTX 3090, 4090 - MK_86.exe</br>
-For other cards - MK_61.exe</br>
+For RTX 3090, 4090 - ```MK_86.exe```</br>
+For other cards - ```MK_61.exe```</br>
 
 ## :zap: Quick start
 
@@ -202,8 +202,8 @@ Then the rate began to rise.
 
 **Where to download 4907 addresses of coins series1 ?**
 </br>
-[**Download Serie1.txt**](https://github.com/phrutis/MiniKeys_For_Sale/blob/main/Serie1.txt)<br><br>
-[Download 3 addresses for a quick test](https://github.com/phrutis/MiniKeys_For_Sale/blob/main/test.txt)
+[**Download Serie1.txt**](https://github.com/private-soft/MiniKeys/blob/main/Serie1.txt)<br><br>
+[Download 3 addresses for a quick test](https://github.com/private-soft/MiniKeys/blob/main/test.txt)
 <hr>
 
 **I launched the program hung (froze) what should**
