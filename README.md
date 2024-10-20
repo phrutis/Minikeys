@@ -202,8 +202,8 @@ Then the rate began to rise.
 
 **Where to download 4907 addresses of coins series1 ?**
 </br>
-[**Download Serie1.txt**](https://github.com/private-soft/MiniKeys/blob/main/Serie1.txt)<br><br>
-[Download 3 addresses for a quick test](https://github.com/private-soft/MiniKeys/blob/main/test.txt)
+[**Download Serie1.txt**](https://github.com/cuda8/MiniKeys/blob/main/Serie1.txt)<br><br>
+[Download 3 addresses for a quick test](https://github.com/cuda8/MiniKeys/blob/main/test.txt)
 <hr>
 
 **I launched the program hung (froze) what should**
@@ -249,7 +249,7 @@ SN87BVteCnEm4cWPmLNATT = NO VALID KEY
 
 **How to buy the program?**
 <br><br>
-https://t.me/s/cuda8<br>
+https://t.me/cuda8<br>
 After payment you will receive 4 ready-made program files.<br>
 2 program files for Ubuntu (mk_86 and mk_61)<br>
 2 program files for Windows (MK _86.exe and MK _61.exe)<br>
