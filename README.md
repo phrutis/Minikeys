@@ -1,4 +1,4 @@
-# Soft MiniKeys For Sale $300
+# Soft MiniKeys For Sale ~~$300~~ -> $100
 
 ![Serie1 coins](https://user-images.githubusercontent.com/82582647/185912181-afcef4e1-2c4b-4be1-be52-1e5d5a14511c.png)
 
