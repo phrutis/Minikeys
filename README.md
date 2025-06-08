@@ -42,43 +42,20 @@ For other cards - ```MK_61.exe```</br>
 
 ## :zap: Quick start
 
-**Linux**</br>
-Run: ```chmod +x mk_86``` 
-
 ## Sequential search mode 1
 <br>
 Minikey test: SRjnYZNo5d3wcgjw4k8L1b<br>
 Minikey address: 1ACKFKm53PgwXy1XkYRnG36MNsR5JJpjsp
 
-```./mk_86 -v --bits 24 --rangeStart SRjnYZNo5d3wcgj1111111 --input test.txt -d 0```</br>
+```MK_86.exe -v --bits 24 --rangeStart SRjnYZNo5d3wcgj1111111 --input test.txt -d 0```</br>
 
-```
-./mk_86 -v --bits 24 --rangeStart SRjnYZNo5d3wcgj1111111 --input test.txt -d 0
-MinikeyCuda  v 0.2.23, License to: Sam
+https://github.com/user-attachments/assets/4c568713-f42d-4a86-9ee7-ffbd492a6e4b
 
-Loaded addresses: 1
-Using device 0:
-NVIDIA GeForce RTX 4090 (128 procs)
-number of blocks: 256
-number of threads: 384
-number of checks per thread: 15360
-Uploading data....
-Uploading finished
-Prec big gen 24 bit, please wait
-Gen started at Sun Jan 14 16:03:43 2024
-Prec gen 24 bit finished
-Work started at Sun Jan 14 16:11:08 2024
+**Linux**</br>
+Run: ```chmod +x mk_86```</br>
+Run: ```./mk_86 -v --bits 24 --rangeStart SRjnYZNo5d3wcgj1111111 --input test.txt -d 0```
 
-Starting key: SRjnYZNo5d3wcgj1111111
- 14.977 GKey/s, SRjnYZNo5d3wcgjuxAoEA3      
-found: 1ACKFKm53PgwXy1XkYRnG36MNsR5JJpjsp - 6556ED6E88D5B78C66E0060626BABB94E0F0E52764E892A07102CF1541B5784A
-found: SRjnYZNo5d3wcgjw4k8L1b 
-
-Work finished at Sun Jan 14 16:13:27 2024
-------------------------
-```
-
-Use --skip3</br>
+### Use --skip3
 ```MK_86.exe -v --skip3 --bits 24 --rangeStart SRjnYZNo5d3cccj1111111 --input test.txt -d 0```<br>
 
 https://github.com/user-attachments/assets/3e893e9f-1001-4628-8a0b-e4f99a6d23ec
