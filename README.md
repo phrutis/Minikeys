@@ -87,44 +87,18 @@ After length 7 has been completed a new starting key will be generated from the 
 You can specify the length 8, 9, 10...
 
 ## Permutation mode 3
-</br>
+
 Minikey test: S1TEST1phrutisaBcDE736</br>
 Minikey address: 1KamPdVF51cnBv8jCq3d5yStQMtsH9EPPY<br>
 Prefix: S1TEST1 (Length 7 characters)<br>
 Alphabet: phrutisaBcDE736 -> Bha6riu7tscpDE3 (Length 15 characters)<br>
+```MK_86.exe -v --bits 24 --permutation --rangeStart S1TEST1 --permbase Bha6riu7tscpDE3 --input test.txt -d 0```
 
+https://github.com/user-attachments/assets/7e64169f-294f-492e-a4ad-de9a8da15144
+
+**Linux**</br>
 ```./mk_86 -v --bits 24 --permutation --rangeStart S1TEST1 --permbase Bha6riu7tscpDE3 --input test.txt -d 0```
 <br>
-
-```
-./mk_86 -v --bits 24 --permutation --rangeStart S1TEST1 --permbase Bha6riu7tscpDE3 --input test.txt -d 0
-MinikeyCuda  v 0.2.23, License to: Sam
-
-Loaded addresses: 3
-Using device 0:
-NVIDIA GeForce RTX 4090 (128 procs)
-number of blocks: 256
-number of threads: 384
-number of checks per thread: 15360
-Uploading data......
-Uploading finished
-Prec big gen 24 bit, please wait
-Gen started at Sun Jan 14 18:34:43 2024
-Prec gen 24 bit finished
-Work started at Sun Jan 14 18:42:08 2024
-Number of characters to check: 15
-Permutation dictionary: 367BDEachiprstu
-
-Starting key: S1TEST1367BDEachiprstu
-Total number of checks (15, no dup): 1307674368000
- 12.625 GKey/s, progress: 68.242% [892380119040]      
-found: 1KamPdVF51cnBv8jCq3d5yStQMtsH9EPPY - 1C818FA9F9F6DC0071B7DE3B604365237281702C2ACE38A3F06670D7AEA6C319
-found: S1TEST1phrutisaBcDE736 
- 12.625 GKey/s, progress: 97.340% [1272887377920]      permutation end reached!!!
-
-Work finished at Sun Jan 14 18:43:52 2024
-------------------------
-```
 
 In this mode, characters in a given alphabet are swapped.</br>
 Use "--permutation" BEFORE "--rangeStart"!</br>
