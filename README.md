@@ -68,42 +68,14 @@ If you get 3 of a kind again it will turn on
 
 ## Random search mode 2
 
-Minikey test: SRoHTi8X5ptRVfdx65test (seed 20240003)</br>
-Minikey address: 1GyjG3RjhQ2Z3RduLLhxxfWqE5aJnbiXpz
-</br>
-```./mk_86 -v --bits 24 --random --randomseed 20240001 --randompos 7 --input test.txt -d 0```</br>
+Minikey test: Svdsde1Me6KbaQa6PtM563 (seed 20240003 windows)</br>
+Minikey address: 1FVBSz8GFVdD5bwcrjXxr35CBHL2e5tw9o</br>
+```MK_86.exe -v --bits 24 --random --randomseed 20240001 --randompos 7 --input test.txt -d 0```</br>
 
-```
-./mk_86 -v --bits 24 --random --randomseed 20240001 --randompos 7 --input test.txt -d 0
-MinikeyCuda  v 0.2.23, License to: Sam
+https://github.com/user-attachments/assets/8b1caaf9-9746-4de8-8064-3fb4a6adffab
 
-Loaded addresses: 2
-Using device 0:
-NVIDIA GeForce RTX 4090 (128 procs)
-number of blocks: 256
-number of threads: 384
-number of checks per thread: 15360
-Uploading data....
-Uploading finished
-Prec big gen 24 bit, please wait
-Gen started at Sun Jan 14 17:44:35 2024
-Prec gen 24 bit finished
-Work started at Sun Jan 14 17:51:58 2024
-Initial seed: 20240001
-Number of characters to check: 7
-
-seed 20240001: Starting key: Syh9ZPYFTiGSy4j1121121
- 14.762 GKey/s, Syh9ZPYFTiGSy4jym2zEzM      
-seed 20240002: Starting key: SKmBzgFApmZJzvQ1121121
- 14.768 GKey/s, SKmBzgFApmZJzvQyN2hPN1      
-seed 20240003: Starting key: SRoHTi8X5ptRVfd1121121
- 14.771 GKey/s, SRoHTi8X5ptRVfdwRJfzbK      
-found: 1GyjG3RjhQ2Z3RduLLhxxfWqE5aJnbiXpz - 45B56232A338BB649E4CD181D64FB583DF90F302259D52BD1AF99C208C7E5BA9
-found: SRoHTi8X5ptRVfdx65test 
-
-Work finished at Sun Jan 14 17:59:20 2024
-------------------------
-```
+**Linux**</br>
+```./mk_86 -v --bits 24 --random --randomseed 20240001 --randompos 7 --input test.txt -d 0```
 
 --randomseed 20240001</br>
 A starting random key is generated that corresponds to the seed range 20220001</br>
@@ -111,7 +83,7 @@ A starting random key is generated that corresponds to the seed range 20220001</
 --randompos 7 (Length 7 characters)</br>
 Start range: S + 13 characters from seed + 1111111</br>
 End range: S + 13 characters from seed + zzzzzzz</br>
-After length 7 has been completed a new starting key will be generated from the next seed 20240002 ..... next seed 20245894
+After length 7 has been completed a new starting key will be generated from the next seed 20240002 ..... next seed 20245894</br>
 You can specify the length 8, 9, 10...
 
 ## Permutation mode 3
