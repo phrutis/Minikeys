@@ -60,7 +60,7 @@ Run: ```./mk_86 -v --bits 24 --rangeStart SRjnYZNo5d3wcgj1111111 --input test.tx
 
 https://github.com/user-attachments/assets/3e893e9f-1001-4628-8a0b-e4f99a6d23ec
 
-kipping keys where there are 3 identical letters in a row.</br>
+Skipping keys where there are 3 identical letters in a row.</br>
 ```./mk_86 -v --skip3 --bits 24 --rangeStart SRjnYZNo5d3cccj1111111 --input test.txt -d 0```<br>
 Search speed RTX 4090 increases 240 Gkeys/s (TURBO)</br>
 When 3 identical letters are passed in a range, the skip will be disabled.</br>
