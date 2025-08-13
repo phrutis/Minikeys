@@ -1,4 +1,4 @@
-# Soft brute MiniKeys BTC - For Sale $300
+# Soft brute MiniKeys BTC - For Sale ~~$300~~ -> $50
 
 ![Serie1 coins](https://user-images.githubusercontent.com/82582647/185912181-afcef4e1-2c4b-4be1-be52-1e5d5a14511c.png)
 
@@ -9,7 +9,7 @@ This is the fastest program to find old Serie1 minikeys in the world :trophy:
 
 | GPU card   | --bits    | Speed/s   |
 |------------|----------|-----------|
-| RTX 4090   | 24       | 14.4 Gkeys |
+| RTX 4090   | 24       | 14 Gkeys |
 | RTX 3090   | 24       | 6.2 Gkeys |
 | RTX 3070   | 20       | 3.3 Gkeys |
 
